@@ -1,8 +1,8 @@
 
-## Install/Activcate env 
-virtualenv venv
-source venv/bin/activate
-pip3 install -r requirements.txt
+## Install
+$ virtualenv venv
+$ source venv/bin/activate
+$ pip3 install -r requirements.txt
 
 ## Populate data
 $ python3 populate_test_data.py
