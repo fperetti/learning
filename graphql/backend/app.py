@@ -1,10 +1,12 @@
 from flask import Flask
+from flask_cors import CORS
 from flask_graphql import GraphQLView
 
 from db import db_session
 from schemas import schema
 
 app = Flask(__name__)
+CORS(app)
 app.debug = True
 
 app.add_url_rule(
